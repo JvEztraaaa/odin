@@ -1,3 +1,6 @@
 # TheOdinProject
 Hello Odin!
-Test: Updating on November 12, 2024
+
+This will be my main repository to track my progress and projects under TheOdinProject. 
+
+Wish me luck :)
