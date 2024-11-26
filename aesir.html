@@ -12,6 +12,30 @@
             margin-right: 100px;
             margin-left: 100px;
         }
+
+        div {
+            color: red;
+            font-family: "Calibri", serif;
+            font-size: 24px;
+            font-weight: bold
+        }
+
+        .div-class-test {
+            color: blue;
+        }
+
+        #div-id-test {
+            color: brown;
+        }
+
+        .subsection.header {
+            color: red;
+        }
+
+        .subsection#preview {
+            color: blue;
+        }
+
         </style>
   </head>
 
@@ -69,7 +93,7 @@
     <br>
 
     <!-- Images -->
-    <h2>Images</h2>
+    <h2><center>Images</center></h2>
 
     <!-- Displaying image using image address online -->
     <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefG1GmvBt1lxR483gtvaQAkyhP4Cde4yQkA&s"></center>
@@ -77,10 +101,21 @@
 
     <!-- Displaying image using local path -->
     <center><img src="./images/cat.jpg" width="300" height="400" alt="just a cat"></center>
+    <br>
 
+    <!-- Testing CSS selectors -->
+    <div><center>This should be red..</center></div>
+    <div class="div-class-test"><center>and this should be blue.</center></div>
+    <div id="div-id-test"><center>I'm brown..</center></div>
+    <br>
 
-
-
+    <div>
+      <center>
+        <div class="subsection header">Chaining Selectors. Should be red.</div>
+        <p class="subsection" id="preview"> Should be blue.</p>
+      </center>
+    </div>
+    
     
   </body>
 </html>
