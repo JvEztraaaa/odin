@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head contains information that are not displayed on the page -->
+  <head>
+    <meta charset="UTF-8">
+    <title>aesir</title>
+    <style>
+        /*CSS used to add margin to the body --> */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: justify;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+
+        div {
+            color: red;
+            font-family: "Calibri", serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .div-class-test {
+            color: blue;
+        }
+
+        #div-id-test {
+            color: brown;
+        }
+
+        .subsection.header {
+            color: red;
+        }
+
+        .subsection#preview {
+            color: blue;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        </style>
+  </head>
+
+  <!-- Body: information that are displayed on the page -->
+  <body>
+    <h1><center>TheOdinProject</center></h1>
+    <h4><center>Applying what I've learned in HTML in this website.</center></h4>
+    <br>
+
+    <h2>What is TheOdinProject?</h2>
+    <p><strong><em>The Odin Project</em></strong> is a free, open-source community for full-stack web development training. The bootcamp prepares individuals with no technical experience to become web developers while collaborating with other learners.</p>
+
+    <h2>Why do we use it?</h2>
+    <p>It's structured to guide beginners through fundamental programming concepts and more advanced topics, all while helping students build their own projects and portfolio.</p>
+    
+    <h2>Where does it come from?</h2>
+    <p>The Odin Project was created by <strong>Erik Trautman</strong> in 2013 as part of his work with the Viking Code School, an online bootcamp. It was developed to make high-quality coding education accessible to anyone interested in web development, regardless of financial barriers. Initially a side project, it quickly gained popularity due to its structured, open-source curriculum and project-based learning style.</p>
+    <br>
+
+    <!-- Lists: Unordered and Ordered -->
+    <h2>Why is coding useful?</h2>
+    <ul>
+        <li>Web Development: Building websites and web apps.</li>
+        <li>Mobile Apps: Creating apps for smartphones and tablets.</li>
+        <li>Game Development: Designing video and mobile games.</li>
+        <li>Data Analysis: Processing and visualizing data for insights.</li>
+        <li>Automation: Simplifying repetitive tasks with scripts.</li>
+    </ul>
+    <br>
+
+    <h2>What projects can I build thru TheOdinProject?</h2>
+    <ol>
+      <li>Personal Portfolio Website: Build a responsive portfolio to showcase projects and skills.</li>
+      <li>To-Do List App: Create an interactive task manager with JavaScript.</li>
+      <li>Weather App: Fetch and display weather data using APIs.</li>
+      <li>Restaurant Page: Design a multi-page restaurant website using Webpack.</li>
+      <li>Library App: Build a book management system using JavaScript objects and DOM manipulation.</li>
+    </ol>
+    <br>
+
+    <!-- Links-->
+    <h2><center>Links</center></h2>
+
+    <!-- Links to pages on other websites on the internet -->
+    <h4><center>Absolute Links</center></h4>
+    <a href="https://www.theodinproject.com/about"><center>About The Odin Project (Same Tab)</center></a>
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer"><center>About The Odin Project (New Tab)</center></a>
+    <br>
+
+    <!-- A partial path that points to a location relative to the current page. -->
+    <h4><center>Relative Links</center></h4>
+    <a href="aesir_about.html"><center>About aesir (Same Tab)</center></a>
+    <a href="aesir_about.html" target="_blank" rel="noopener noreferrer"><center>About aesir (New Tab)</center></a>
+    <br>
+    <br>
+
+    <!-- Images -->
+    <h2><center>Images</center></h2>
+
+    <!-- Displaying image using image address online -->
+    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefG1GmvBt1lxR483gtvaQAkyhP4Cde4yQkA&s"></center>
+    <br>
+
+    <!-- Displaying image using local path -->
+    <center><img src="./images/cat.jpg" width="300" height="400" alt="just a cat"></center>
+    <br>
+
+    <!-- Testing CSS selectors -->
+    <div><center>This should be red..</center></div>
+    <div class="div-class-test"><center>and this should be blue.</center></div>
+    <div id="div-id-test"><center>I'm brown..</center></div>
+    <br>
+
+    <div>
+      <center>
+        <div class="subsection header">Chaining Selectors. Should be red.</div>
+        <p class="subsection" id="preview"> Should be blue.</p>
+      </center>
+    </div>
+    
+    
+  </body>
+</html>
