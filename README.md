@@ -1,6 +1,7 @@
 # TheOdinProject
+
 Hello Odin!
 
-This will be my main repository to track my progress and projects under TheOdinProject. 
+This will be my main repository for trying out the skills I've learned through TOP.
 
 Wish me luck :)
